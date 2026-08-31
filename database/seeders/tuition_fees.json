@@ -1,0 +1,6 @@
+[
+  {"tier":1,"label":"روضة + أول ابتدائي","academic_year":"2026-2027","cash_amount":4500,"installments_amount":5000,"monthly_amount":500,"currency":"SAR","note":"استفيدي من دعم قرّة للأم الموظفة بالقطاع الخاص — سنة كاملة للروضة مع النقل","is_active":true},
+  {"tier":2,"label":"من ثاني ابتدائي إلى سادس ابتدائي (بنين وبنات)","academic_year":"2026-2027","cash_amount":6000,"installments_amount":7000,"monthly_amount":700,"currency":"SAR","note":null,"is_active":true},
+  {"tier":3,"label":"جميع صفوف المتوسط + أول ثانوي","academic_year":"2026-2027","cash_amount":7500,"installments_amount":9000,"monthly_amount":900,"currency":"SAR","note":null,"is_active":true},
+  {"tier":4,"label":"ثاني ثانوي + ثالث ثانوي","academic_year":"2026-2027","cash_amount":9000,"installments_amount":10500,"monthly_amount":1050,"currency":"SAR","note":null,"is_active":true}
+]

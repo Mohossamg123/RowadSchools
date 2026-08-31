@@ -1,0 +1,10 @@
+[
+  {"label":"التسجيل والقبول","url":"https://rowad-alnajah.pyramedx.com/admissions","icon":"graduation-cap","is_active":true,"sort_order":1},
+  {"label":"الموقع الرسمي","url":"https://rowad-alnajah.pyramedx.com/","icon":"globe","is_active":true,"sort_order":2},
+  {"label":"واتساب المدرسة","url":"https://wa.me/message/R5BYTCGVVHPIC1","icon":"whatsapp","is_active":true,"sort_order":3},
+  {"label":"اتصل بنا","url":"tel:0598501515","icon":"phone","is_active":true,"sort_order":4},
+  {"label":"إنستقرام","url":"https://www.instagram.com/rowad_alnjah","icon":"instagram","is_active":true,"sort_order":5},
+  {"label":"تيك توك","url":"https://tiktok.com/@rowad_alnjah","icon":"tiktok","is_active":true,"sort_order":6},
+  {"label":"سناب شات","url":"https://www.snapchat.com/add/Rowad_alnjah","icon":"snapchat","is_active":true,"sort_order":7},
+  {"label":"الموقع على الخريطة","url":"https://maps.app.goo.gl/GUvC99UxiVcT1Hbz9","icon":"map-pin","is_active":true,"sort_order":8}
+]

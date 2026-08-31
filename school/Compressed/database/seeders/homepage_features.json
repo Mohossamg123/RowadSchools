@@ -1,0 +1,8 @@
+[
+  {"title":"قسم العلوم","description":"معامل مجهزة وتجارب تطبيقية تنمي التفكير العلمي.","icon":"atom","sort_order":1,"is_active":true},
+  {"title":"قسم الرياضيات","description":"مهارات حل المشكلات والتفكير المنطقي خطوة بخطوة.","icon":"calculator","sort_order":2,"is_active":true},
+  {"title":"قسم اللغات","description":"برامج مكثفة في العربية والإنجليزية بمهارات التواصل.","icon":"languages","sort_order":3,"is_active":true},
+  {"title":"العلوم الشرعية","description":"تأصيل القيم والهوية مع حلقات تحفيظ القرآن.","icon":"book-open-check","sort_order":4,"is_active":true},
+  {"title":"الفنون والإبداع","description":"أنشطة فنية ومسرحية تُبرز مواهب الطلاب.","icon":"palette","sort_order":5,"is_active":true},
+  {"title":"التربية البدنية","description":"ملاعب ومرافق رياضية وبرامج لياقة وفرق مدرسية.","icon":"dumbbell","sort_order":6,"is_active":true}
+]

@@ -1,0 +1,1008 @@
+{
+  "info": {
+    "_postman_id": "82c5cf0f-8c76-495c-8ef0-1908f776d5c9",
+    "name": "Rowad AlNajah API",
+    "description": "Collection for testing all Laravel API endpoints in the Rowad AlNajah project.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Public - Auth",
+      "item": [
+        {
+          "name": "Login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const response = pm.response.json();",
+                  "if (response && response.success && response.data && response.data.token) {",
+                  "  pm.collectionVariables.set('token', response.data.token);",
+                  "  console.log('Token stored');",
+                  "}",
+                  "else {",
+                  "  console.log('No token returned');",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"admin@school.com\",\n  \"password\": \"password\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/v1/auth/login",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Public - Website APIs",
+      "item": [
+        {
+          "name": "Home",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/home",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "home"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Pages List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/pages",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "pages"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Page Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/pages/{{page_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "pages",
+                "{{page_id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Stages List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/stages",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "stages"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Stage Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/stages/{{stage_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "stages",
+                "{{stage_id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Grades List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/grades",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "grades"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Grade Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/grades/{{grade_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "grades",
+                "{{grade_id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Tuition Fees List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/tuition-fees",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "tuition-fees"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Tuition Fee Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/tuition-fees/{{tuition_fee_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "tuition-fees",
+                "{{tuition_fee_id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Offers List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/offers",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "offers"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Offer Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/offers/{{offer_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "offers",
+                "{{offer_id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Announcements List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/announcements",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "announcements"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Announcement Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/announcements/{{announcement_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "announcements",
+                "{{announcement_id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Testimonials",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/testimonials",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "testimonials"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Gallery",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/gallery",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "gallery"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Gallery Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/gallery/{{gallery_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "gallery",
+                "{{gallery_id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Social Links",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/social-links",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "social-links"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Payment Methods",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/payment-methods",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "payment-methods"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Settings",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/settings",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "settings"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Public Links",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/links",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "links"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Social Media Posts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/v1/social-media/posts",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "social-media",
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Student Registration Create",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_name\": \"Ahmad Ali\",\n  \"phone\": \"966500000000\",\n  \"email\": \"ahmad@example.com\",\n  \"stage_id\": 1,\n  \"grade_id\": 1,\n  \"message\": \"Interested in enrollment\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/v1/student-registrations",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "student-registrations"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Admin - Protected APIs",
+      "item": [
+        {
+          "name": "Me",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/me",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "me"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Logout",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/logout",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "logout"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Dashboard",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/dashboard",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "dashboard"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Users List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/users",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Roles List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/roles",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "roles"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Permissions List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/permissions",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "permissions"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Pages Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/pages",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "pages"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Stages Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/stages",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "stages"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Grades Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/grades",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "grades"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Tuition Fees Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/tuition-fees",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "tuition-fees"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Homepage Features Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/homepage-features",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "homepage-features"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Offers Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/offers",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "offers"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Announcements Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/announcements",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "announcements"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Testimonials Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/testimonials",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "testimonials"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Registrations Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/registrations",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "registrations"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Galleries Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/galleries",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "galleries"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Social Links Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/social-links",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "social-links"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Payment Methods Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/payment-methods",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "payment-methods"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Settings Admin List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/v1/admin/settings",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "v1",
+                "admin",
+                "settings"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8000/api",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "page_id",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "stage_id",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "grade_id",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "tuition_fee_id",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "offer_id",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "announcement_id",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "gallery_id",
+      "value": "1",
+      "type": "string"
+    }
+  ]
+}

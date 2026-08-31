@@ -1,0 +1,89 @@
+<?php
+
+namespace App\Http\Controllers\Api\V1\HeroSlide;
+
+use App\Http\Controllers\Controller;
+use App\Http\Requests\HeroSlide\StoreHeroSlideRequest;
+use App\Http\Requests\HeroSlide\UpdateHeroSlideRequest;
+use App\Http\Resources\HeroSlideResource;
+use App\Models\HeroSlide;
+use App\Services\ImageUploadService;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Support\Facades\Storage;
+
+class HeroSlideController extends Controller
+{
+    public function index(): JsonResponse
+    {
+        $slides = HeroSlide::query()
+            ->orderBy('sort_order')
+            ->get();
+
+        return response()->json([
+            'success' => true,
+            'data' => HeroSlideResource::collection($slides),
+        ]);
+    }
+
+    public function store(StoreHeroSlideRequest $request): JsonResponse
+    {
+        $data = $request->validated();
+
+        $data['image'] = app(ImageUploadService::class)
+            ->upload($request->file('image'), 'hero');
+
+        $slide = HeroSlide::create($data);
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Hero slide created successfully.',
+            'data' => new HeroSlideResource($slide),
+        ], 201);
+    }
+
+    public function show(HeroSlide $heroSlide): JsonResponse
+    {
+        return response()->json([
+            'success' => true,
+            'data' => new HeroSlideResource($heroSlide),
+        ]);
+    }
+
+    public function update(
+        UpdateHeroSlideRequest $request,
+        HeroSlide $heroSlide
+    ): JsonResponse {
+        $data = $request->validated();
+
+        if ($request->hasFile('image')) {
+            if ($heroSlide->image) {
+                Storage::disk('public')->delete($heroSlide->image);
+            }
+
+            $data['image'] = app(ImageUploadService::class)
+                ->upload($request->file('image'), 'hero');
+        }
+
+        $heroSlide->update($data);
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Hero slide updated successfully.',
+            'data' => new HeroSlideResource($heroSlide),
+        ]);
+    }
+
+    public function destroy(HeroSlide $heroSlide): JsonResponse
+    {
+        if ($heroSlide->image) {
+            Storage::disk('public')->delete($heroSlide->image);
+        }
+
+        $heroSlide->delete();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Hero slide deleted successfully.',
+        ]);
+    }
+}

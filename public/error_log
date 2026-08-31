@@ -1,0 +1,238 @@
+[21-Aug-2026 13:10:20 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:15:12 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:15:12 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:15:35 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:16:29 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:18:42 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:18:42 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:18:54 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:28:28 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:29:02 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:29:26 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:31:08 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:31:17 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:31:17 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:31:20 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:31:21 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:33:22 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:34:21 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:36:25 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:36:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:39:47 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:49:03 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:50:36 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:55:39 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 13:55:39 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:07:19 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:07:26 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:08:16 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:08:45 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/school/Compressed/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/school/Compressed/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/school/Compressed/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/school/Compressed/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:18:02 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:19:05 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:21:17 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:21:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/vendor/composer/platform_check.php on line 22
+[21-Aug-2026 14:21:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home/rowagbak/backend/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/rowagbak/backend/vendor/composer/autoload_real.php(25): require()
+#1 /home/rowagbak/backend/vendor/autoload.php(22): ComposerAutoloaderInitf4dbe09ac5bbddf1a0ad59af35d90a39::getLoader()
+#2 /home/rowagbak/backend/public/index.php(14): require('/home/rowagbak/...')
+#3 {main}
+  thrown in /home/rowagbak/backend/vendor/composer/platform_check.php on line 22

@@ -1,0 +1,10 @@
+[
+  {"key":"apple_pay","label":"Apple Pay","is_enabled":true,"sort_order":1},
+  {"key":"mada","label":"مدى","is_enabled":true,"sort_order":2},
+  {"key":"visa","label":"Visa","is_enabled":true,"sort_order":3},
+  {"key":"mastercard","label":"Mastercard","is_enabled":true,"sort_order":4},
+  {"key":"bank_transfer","label":"تحويل بنكي","is_enabled":true,"sort_order":5},
+  {"key":"cash","label":"كاش","is_enabled":true,"sort_order":6},
+  {"key":"tamara","label":"تمارا","is_enabled":true,"sort_order":7},
+  {"key":"jeel_pay","label":"جيل باي","is_enabled":true,"sort_order":8}
+]

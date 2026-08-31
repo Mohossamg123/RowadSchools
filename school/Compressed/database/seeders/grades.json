@@ -1,0 +1,20 @@
+[
+  {"stage_slug":"kg","slug":"kg1","name":"روضة الأولى (KG1)","sort_order":1,"is_active":true,"tier":1},
+  {"stage_slug":"kg","slug":"kg2","name":"روضة الثانية (KG2)","sort_order":2,"is_active":true,"tier":1},
+  {"stage_slug":"kg","slug":"kg3","name":"روضة الثالثة (KG3)","sort_order":3,"is_active":true,"tier":1},
+
+  {"stage_slug":"primary","slug":"p1","name":"الصف الأول ابتدائي","sort_order":1,"is_active":true,"tier":1},
+  {"stage_slug":"primary","slug":"p2","name":"الصف الثاني ابتدائي","sort_order":2,"is_active":true,"tier":2},
+  {"stage_slug":"primary","slug":"p3","name":"الصف الثالث ابتدائي","sort_order":3,"is_active":true,"tier":2},
+  {"stage_slug":"primary","slug":"p4","name":"الصف الرابع ابتدائي","sort_order":4,"is_active":true,"tier":2},
+  {"stage_slug":"primary","slug":"p5","name":"الصف الخامس ابتدائي","sort_order":5,"is_active":true,"tier":2},
+  {"stage_slug":"primary","slug":"p6","name":"الصف السادس ابتدائي","sort_order":6,"is_active":true,"tier":2},
+
+  {"stage_slug":"middle","slug":"m1","name":"الصف الأول متوسط","sort_order":1,"is_active":true,"tier":3},
+  {"stage_slug":"middle","slug":"m2","name":"الصف الثاني متوسط","sort_order":2,"is_active":true,"tier":3},
+  {"stage_slug":"middle","slug":"m3","name":"الصف الثالث متوسط","sort_order":3,"is_active":true,"tier":3},
+
+  {"stage_slug":"secondary","slug":"s1","name":"الصف الأول ثانوي","sort_order":1,"is_active":true,"tier":3},
+  {"stage_slug":"secondary","slug":"s2","name":"الصف الثاني ثانوي","sort_order":2,"is_active":true,"tier":4},
+  {"stage_slug":"secondary","slug":"s3","name":"الصف الثالث ثانوي","sort_order":3,"is_active":true,"tier":4}
+]
